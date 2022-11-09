@@ -139,18 +139,19 @@
 
 # Задание 9
 # from random import *
-# matrix = [[0] * 4 for i in range(4)]
+# N = int(input("Количество строк и столбцов: "))
+# matrix = [[0] * N for i in range(N)]
 # print(matrix, '\n')  # Создание списка с вложенным списком
 #                      # со значениями 0
 # otrelem = 0
-# for i in range(4):
-#     for j in range(4):
+# for i in range(N):
+#     for j in range(N):
 #         matrix[i][j] = randint(-10, 10)
 #         print(matrix[i][j], end='\t')
 #     print()
 # # Создал матрицу 4*4 с рандомными значениями от -10 до 10
-# for i in range(4):
-#     for j in range(4):
+# for i in range(N):
+#     for j in range(N):
 #         if matrix[i][j] < 0 and j < i: # j < i под главной линией
 #             otrelem += 1
 # print(f'\nКоличество отрицательных элементов под главной '
