@@ -72,6 +72,7 @@
 #     elif i == 237:
 #         break
 
+
 # Задача 8
 # Сложите цифры целого семизначного числа.
 
@@ -115,3 +116,8 @@
 #             exit()
 # print("Все элементы уникальны")
 
+# def print_hi(name):
+#     print(f'Hi, {name}')
+#
+# if __name__ == "__main__":
+#     print_hi("Pycharm")
